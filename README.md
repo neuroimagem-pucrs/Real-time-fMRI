@@ -7,7 +7,7 @@ Alexandre R. Franco (eng.franco@gmail.com)
 
 This is the realtime fmri system that works on a GE Heathcare HDxt 3.0T (v.16) scanner. 
 
-#######################
+!#######################
 What needs to be installed on the MRI computer:
 
 "Dimon" (from AFNI)
@@ -30,8 +30,8 @@ in the folder:
 put the following files:
   output.txt  resultado.txt  sendFMRI.sh
 
-##########################################
-##########################################
+!##########################################
+!##########################################
 What you'll need to install on the computer that will be recieving the images and controling for head motion. 
 0) Install Linux (we recommend Ubuntu - well that's what we are using)
 
@@ -51,8 +51,17 @@ What you'll need to install on the computer that will be recieving the images an
 4) Set AFNI path
   set path = ( $path ~/abin ) 				#set on .tcshrc file
 
+Copy the following files to the computer:
+1) on the Desktop, copy the following files 
+   InstructionsStartRTFMRI.txt 
+   rtfmri_setup.sh
+   
+   For the rtfmri_setup.sh , you'll need to edit it to the username that you are using for your user (for us its "rtfmri")
+   
+ 2) XXXXX
 
-##################
+
+!##################
 
 How to run the realtime fmri (and motion tracking) system
 

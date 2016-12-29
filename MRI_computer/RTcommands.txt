@@ -1,0 +1,14 @@
+
+
+ Dimon -infile_pattern '*' -show_sorted_list -quit
+
+
+Dimon -infile_pattern 'i*' -rt -nt 210 -host 10.40.212.51 -rt_cmd "test1" -sleep_frac 1.1 -tr 2 -sort_by_num_suffix -quit
+
+10.63.183.43
+
+
+Dimon -infile_pattern 'i*' -rt -nt 210 -host 10.40.212.51 -rt_cmd "test1" -num_slices 26 -sleep_frac 1.1 -tr 2 -quit
+
+
+

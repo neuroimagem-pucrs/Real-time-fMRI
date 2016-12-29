@@ -1,0 +1,13 @@
+
+
+########################################################
+# InsCer - Brain Institute                             # 
+# Porto Alegre-RS-Brazil                               # 
+# Description: This script will help you to Send the   #
+#               images to AFNI in real time. 	       #
+########################################################
+-->Scanner Base Directory: home1/sdc_image_pool/images
+
+
+--> To send the images in real time is necessary run the localizer exam before.
+--> Press Enter only if you have executed the localizer exam from this patient.

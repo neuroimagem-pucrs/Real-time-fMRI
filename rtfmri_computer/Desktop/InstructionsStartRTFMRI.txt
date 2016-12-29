@@ -1,0 +1,13 @@
+Open a terminal (Ctrl+Alt+t on ubuntu)
+
+type on the terminal:
+cd Desktop           [ENTER]
+./rtfmri_setup.sh    [ENTER]
+
+Adjust the windows to see the  FMRI motion viewer
+If you are performing an exam with an adult, we recommend changing the Head Motion Limit from 0.9 to 0.3
+
+press START on the fmri motion viewer
+
+
+

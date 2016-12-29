@@ -1,0 +1,13 @@
+#!/bin/tcsh
+
+set patiendir = 'cat tmp.txt' 
+echo $patiendir
+
+find . -type d > new.txt
+if ( -f "last.txt" ) then
+	diff last.txt new.txt | awk '{ if($2) {print $2} }'								
+	rm new.txt
+else
+	mv new.txt last.txt	
+endif
+

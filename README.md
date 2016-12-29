@@ -7,7 +7,8 @@ Alexandre R. Franco (eng.franco@gmail.com)
 
 This is the realtime fmri system that works on a GE Heathcare HDxt 3.0T (v.16) scanner. 
 
-!#######################
+!#######
+
 What needs to be installed on the MRI computer:
 
 "Dimon" (from AFNI)
@@ -32,6 +33,7 @@ put the following files:
 
 !##########################################
 !##########################################
+
 What you'll need to install on the computer that will be recieving the images and controling for head motion. 
 0) Install Linux (we recommend Ubuntu - well that's what we are using)
 
